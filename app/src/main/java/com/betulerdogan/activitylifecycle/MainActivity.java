@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
 
         LogData("onCreate Called");
 
-        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
         FloatingActionButton fab = findViewById(R.id.fab);
@@ -37,35 +37,35 @@ public class MainActivity extends AppCompatActivity {
     protected void onStart() {
         super.onStart();
 
-        LogData("onStart Called");
+        LogData("onStart Gerçekleşti");
     }
 
     @Override
     protected void onRestart() {
         super.onRestart();
 
-        LogData("onRestart Called");
+        LogData("onRestart Gerçekleşti");
     }
 
     @Override
     protected void onPause() {
         super.onPause();
 
-        LogData("onPause Called");
+        LogData("onPause Gerçekleşti");
     }
 
     @Override
     protected void onResume() {
         super.onResume();
 
-        LogData("onResume Called");
+        LogData("onResume Gerçekleşti");
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
 
-        LogData("onDestroy Called");
+        LogData("onDestroy Gerçekleşti");
     }
 
     @Override
